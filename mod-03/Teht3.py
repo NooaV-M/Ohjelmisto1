@@ -17,7 +17,7 @@ if gender == "male":
     else:
         print("Low hemoglobin levels")
 #Female options
-if gender == "female":
+else:
     if hg_value > 167:
         print("High hemoglobin levels")
     elif hg_value > 116:
