@@ -18,6 +18,5 @@ while query != "":
     except:
         print("Please enter only numbers")
 
-print(numlist)
 print(oddremover(numlist))
 
