@@ -10,7 +10,7 @@ connection = mysql.connector.connect(
     collation='utf8mb4_general_ci'
 )
 
-area_input = input("Enter area code: ")
+area_input = input("Enter area code: ").upper()
 
 #closed
 #large_airport
